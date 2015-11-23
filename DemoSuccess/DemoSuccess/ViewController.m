@@ -53,5 +53,10 @@
     NSLog(@"kuigege");
 }
 
+-(void)kuigegelaima
+{
+    NSLog(@"kuigegelaibulai ");
+}
+
 
 @end
