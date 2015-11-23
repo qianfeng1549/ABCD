@@ -18,7 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+- (void)sayByeBye {
+    NSLog(@"");
+}
 -(void)sayMX101{
     NSLog(@"nicaicai");
     

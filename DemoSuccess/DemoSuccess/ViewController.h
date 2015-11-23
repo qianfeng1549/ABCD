@@ -17,7 +17,7 @@
 -(void)sayOh;
 -(void)sayMyName;
 
-
+- (void)sayByeBye;
 
 @end
 
