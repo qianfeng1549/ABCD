@@ -14,6 +14,8 @@
 		B46FCC351C02ED7100B898B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B46FCC341C02ED7100B898B9 /* Images.xcassets */; };
 		B46FCC381C02ED7100B898B9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B46FCC361C02ED7100B898B9 /* LaunchScreen.xib */; };
 		B46FCC441C02ED7100B898B9 /* DemoSuccessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B46FCC431C02ED7100B898B9 /* DemoSuccessTests.m */; };
+		BCEEBB5C1C03143A00F46203 /* AAAAAAAAAAAA.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEEBB5A1C03143A00F46203 /* AAAAAAAAAAAA.m */; };
+		BCEEBB5D1C03143A00F46203 /* AAAAAAAAAAAA.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEEBB5B1C03143A00F46203 /* AAAAAAAAAAAA.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		B46FCC3D1C02ED7100B898B9 /* DemoSuccessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSuccessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46FCC421C02ED7100B898B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B46FCC431C02ED7100B898B9 /* DemoSuccessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoSuccessTests.m; sourceTree = "<group>"; };
+		BCEEBB591C03143A00F46203 /* AAAAAAAAAAAA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAAAAAAAAAA.h; sourceTree = "<group>"; };
+		BCEEBB5A1C03143A00F46203 /* AAAAAAAAAAAA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAAAAAAAAAA.m; sourceTree = "<group>"; };
+		BCEEBB5B1C03143A00F46203 /* AAAAAAAAAAAA.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AAAAAAAAAAAA.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,9 @@
 		B46FCC1B1C02ED7100B898B9 = {
 			isa = PBXGroup;
 			children = (
+				BCEEBB591C03143A00F46203 /* AAAAAAAAAAAA.h */,
+				BCEEBB5A1C03143A00F46203 /* AAAAAAAAAAAA.m */,
+				BCEEBB5B1C03143A00F46203 /* AAAAAAAAAAAA.xib */,
 				B46FCC261C02ED7100B898B9 /* DemoSuccess */,
 				B46FCC401C02ED7100B898B9 /* DemoSuccessTests */,
 				B46FCC251C02ED7100B898B9 /* Products */,
@@ -200,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46FCC331C02ED7100B898B9 /* Main.storyboard in Resources */,
+				BCEEBB5D1C03143A00F46203 /* AAAAAAAAAAAA.xib in Resources */,
 				B46FCC381C02ED7100B898B9 /* LaunchScreen.xib in Resources */,
 				B46FCC351C02ED7100B898B9 /* Images.xcassets in Resources */,
 			);
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B46FCC301C02ED7100B898B9 /* ViewController.m in Sources */,
+				BCEEBB5C1C03143A00F46203 /* AAAAAAAAAAAA.m in Sources */,
 				B46FCC2D1C02ED7100B898B9 /* AppDelegate.m in Sources */,
 				B46FCC2A1C02ED7100B898B9 /* main.m in Sources */,
 			);
@@ -416,6 +426,7 @@
 				B46FCC491C02ED7100B898B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B46FCC4A1C02ED7100B898B9 /* Build configuration list for PBXNativeTarget "DemoSuccessTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				B46FCC4C1C02ED7100B898B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
