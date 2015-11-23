@@ -12,5 +12,9 @@
 
 -(void)sayHelloWorld;
 
+-(void)sayMyName;
+
+
+
 @end
 
