@@ -31,6 +31,10 @@
     NSLog(@"Who are you!");
 }
 
+-(void)sayOh{
+
+    NSLog(@"NO");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

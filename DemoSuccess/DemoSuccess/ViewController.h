@@ -12,7 +12,7 @@
 
 -(void)sayHelloWorld;
 -(void)sayMX10;
-
+-(void)sayOh;
 -(void)sayMyName;
 
 
