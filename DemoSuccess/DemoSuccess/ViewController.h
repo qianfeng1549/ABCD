@@ -11,6 +11,6 @@
 @interface ViewController : UIViewController
 
 -(void)sayHelloWorld;
-
+-(void)sayMX10
 @end
 
