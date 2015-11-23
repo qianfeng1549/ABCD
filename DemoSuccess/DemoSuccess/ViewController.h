@@ -12,6 +12,8 @@
 
 -(void)sayHelloWorld;
 -(void)sayMX10;
+-(void)sayMX101;
+-(void)sayMX1011;
 -(void)sayOh;
 -(void)sayMyName;
 
