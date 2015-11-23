@@ -23,6 +23,11 @@
     NSLog(@"nicaicai");
     
 }
+-(void)sayZYK31
+{
+    NSLog(@"kuikui");
+}
+
 -(void)sayHelloWorld
 {
     NSLog(@"HelloWorld");
