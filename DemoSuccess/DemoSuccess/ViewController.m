@@ -48,4 +48,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)SAYgoodvyaeyyay
+{
+    NSLog(@"kuigege");
+}
+
+
 @end
