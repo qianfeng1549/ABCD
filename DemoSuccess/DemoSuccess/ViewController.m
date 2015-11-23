@@ -19,6 +19,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)sayMX10{
+    
+}
 -(void)sayZYK31
 {
     NSLog(@"kuikui");
